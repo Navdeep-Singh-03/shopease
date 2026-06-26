@@ -41,7 +41,9 @@ Then open http://localhost:5173 in your browser.
 
 ## Screenshots
 
-(Add screenshots here after deploying)
+Coming soon
 
 ## Live Demo
 
+## Live Demo
+https://shopease-one-cyan.vercel.app
