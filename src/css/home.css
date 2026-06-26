@@ -1,0 +1,63 @@
+/* src/css/home.css */
+
+.featured-section {
+  padding: 40px 0;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Why ShopEase section */
+.why-section {
+  padding: 40px 0 50px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.why-card {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+.why-card span {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.why-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 6px;
+}
+
+.why-card p {
+  font-size: 0.88rem;
+  color: #6b7280;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .featured-grid,
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .featured-grid,
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+}

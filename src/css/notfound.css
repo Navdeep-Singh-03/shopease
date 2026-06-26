@@ -1,0 +1,26 @@
+/* src/css/notfound.css */
+
+.notfound-wrapper {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.notfound-wrapper h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #2563eb;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.notfound-wrapper h2 {
+  font-size: 1.5rem;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.notfound-wrapper p {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-bottom: 28px;
+}
